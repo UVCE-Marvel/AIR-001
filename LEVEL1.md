@@ -1,4 +1,3 @@
-# LEVEL 1 (3 Months)
 ---
 
 ## 1. **Introduction to Aerodynamics and Aircraft Structures**
