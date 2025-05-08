@@ -1,5 +1,3 @@
----
-
 ## 1. **Introduction to Aerodynamics and Aircraft Structures**
 
 - **Objective:** To understand fundamental aerodynamic principles and forces in aviation.
