@@ -169,54 +169,67 @@ Using express create a resource library website where you can browse the resourc
 
 ---
 
-## Domain-Specific Tasks
+## Aviation Domain-Specific Tasks
+---
 
-### Task 1: History of Aviation + Quiz
+## 1. **History of Aviation**
 
-Explore the theory of aviation and different types of planes through hands-on models and a visit to the aviation department. Gain a brief understanding of the history of aviation and the pioneers of the field.
+- **Objective:** To learn about the history of Aviation & Drones.
+- **Task:**
+  - Learn about the history of aviation and drones.
+  - The resource video presents a concise animated timeline of aviation history. It covers:
+    - Early myths and human attempts at flight (e.g., Icarus)
+    - The Wright brothers’ first powered flight in 1903
+    - Developments during World Wars I & II, including fighter aircraft
+    - The invention of jet engines and the rise of commercial airliners
+    - The introduction of supersonic flight (e.g., Concorde)
+    - The emergence of drones (UAVs) in modern times
+- **Outcome:** Show your learning in the form of a timeline/flowchart.
+- **Platform:** [Notion](https://www.notion.com/) for creating the flowchart & [Draw.io](https://app.diagrams.net/) for editing it.
 
-**Resource Link:**
-- [History of Aviation](https://www.spartan.edu/news/history-of-aviation/)
-
-**Expected Outcomes:**
-- Understand the history of aviation.
-- Recognize different parts of planes and their technical names.
-- Learn about the thought process behind aviation advancements.
-![Aviation-History](https://gist.github.com/user-attachments/assets/f7dbd45b-6d3d-44b8-853c-444de89e0e78)
-
+*Resources:*
+1. [Video Resource](https://www.youtube.com/watch?v=mioZ3CQKoEg)
+2. [Resource Article](https://www.spartan.edu/news/history-of-aviation/)
 
 ---
 
-### Task 2: Simulation Flying
+## 2. **Introduction to Flight Simulators**
 
-Gain hands-on experience with fundamental drone maneuvers and understand the importance of maintaining line of sight while operating a UAV. Use a simulator to observe drone speed, range, and the rotation of axes, and tackle various flying challenges.
+- **Objective:** To learn manual controls, stability handling, and motor mixing using a drone simulator.
+- **Task:**
+  - Learn about the different channels available in the RC and how to control or maneuver the drone.
+  - Learn how each motor affects the roll, pitch, and yaw of the drone.
+  - Learn how to connect and set up the TX16S RC to the application.
+  - In the simulator fly the drone in Angle mode, follow a specified drone path as told by the coordinator.
+- **Outcome:** Perform the above tasks and write a detailed report.
+- **Platform:** [Real Drone Racing](https://www.realdronesimulator.com/downloads)
+- **_Note:_**  You can use your own computer or the MARVEL systems but the TX16S MKII should be used only in the presence of aviation coordinators.
 
-**Software:**
-- Will be updated later.
+*Resources:*
+1. [Right way to hold a Tx ](https://www.youtube.com/watch?v=zqQgW7S89-w)
+2. [What are Channels in a Tx?](https://www.youtube.com/watch?v=htv90KHbJak)
+3. [Understanding Roll, Pitch & Yaw](https://www.youtube.com/watch?v=nb74_jkr8u0)
+4. [Control of Roll, Pitch & Yaw using a Tx](https://www.youtube.com/watch?v=uFui-0sTQD0)
+5. [Understanding motor mixing algorithms in a drone](https://www.youtube.com/watch?v=hGcGPUqB67Q)
 
-**Hardware:**
-- Will be updated later.
+![](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Syllabus-Repo/blob/main/RDSLogo_420x200.png?raw=true)
 
-**Expected Outcomes:**
-- Understand different UAV/Drone configurations.
-- Learn about environmental conditions affecting flight.
-- Observe UAV/Drone movements and maneuvers.
-- Learn how to use a transmitter.
+--- 
 
-![simulator](https://gist.github.com/user-attachments/assets/d4b8ab09-6f4d-47a7-b6bd-10f88a133598)
+## 3. **Flying the Airblock Drone**
+
+- **Objective:** To learn about and operate the Airblock Drone available in the lab.
+- **Task:**
+  - Write a report about the drone which should include the name of the application used to fly the drone, type of motors used, material of the drone, propellers used, battery details etc.
+  - Fly the drone in a certain specified path as told by the coordinator, record it and put it up on the report.
+-  **Outcome:** Perform the above tasks and write a detailed report in the Blog Post section, provide link to your blog post in the main report.
+- **Platform:** [MakeBlock App](https://play.google.com/store/apps/details?id=cc.makeblock.makeblock&pcampaignid=web_share)
+- **_Note:_**  This task should be performed only in the presence of aviation coordinators.
+
+*Resources:*
+1. [App Guide](https://qiniu.makeblock.com/makeblock-download/AirblockAPP-EN.pdf)
+2. [Technicalities of the Drone](https://www.robot-advance.com/EN/actualite-the-new-drone-of-makeblock-121.htm)
+
+![](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Syllabus-Repo/blob/main/airblock%20drone%201.jpg?raw=true)
+
 ---
-
-### Task 3: Design an Airfoil in Fusion 360
-
-Design an airfoil with NACA 4412 coordinates in Fusion 360. Use the DAT to spline converter or canvas tool to sketch the airfoil. Understand terms such as angle of attack, camber line, chord line, and leading edge. Design two versions: one using a wood environment and another using composites. The wing should generate at least 5 newtons of lift at a wind speed of 25 m/s.
-
-**Resource Links:**
-- [Fusion 360 Airfoil Design Tutorial 1](https://www.youtube.com/watch?v=r2uzPa9xtaw&t=138s)
-- [Fusion 360 Airfoil Design Tutorial 2](https://www.youtube.com/watch?v=QJjhMan6T_E&t=339s)
-- [Fusion 360 Airfoil Design Tutorial 3](https://www.youtube.com/watch?v=GJHtGMq2wIM&t=228s)
-- [Fusion 360 Airfoil Design Tutorial 4](https://www.youtube.com/watch?v=noJVOpig0Vw&t=299s)
-
-**Prerequisite:** Autodesk Student License
-![aerofoil](https://gist.github.com/user-attachments/assets/92111829-c648-411c-b8fd-c4d98b867093)
-3c214153)
-
