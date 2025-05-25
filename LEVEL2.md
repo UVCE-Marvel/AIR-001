@@ -9,6 +9,7 @@
   - Interface the Mission Planner software with the flight controller using a USB connection.
   - Connect a GPS module to the flight controller and configure it.
   - Calibrate all sensors (accelerometer, compass) and radio inputs.
+
     *(OPTIONAL)*
     - Integrate a Lidar or Ultrasonic Sensor with the flight controller.
     - Write and test a basic obstacle detection script that alters the drone's flight path based on sensor input.
@@ -28,7 +29,9 @@
 - **Task:**
   - Learn about the Heads Up Display (HUD) available in the Mission Planner.
   - Using the built-in Ardupilot simulator (SITL), plan and execute a geofence around UVCE and test a small autonomous mission.
+
     *(OPTIONAL)*
+    
     Learn about automated aerial surveying, different modes of surveys available in Mission Planner, and perform a automated aerial survey of UVCE.
     Execute the flight and analyze logs for accuracy.
 - **Outcome:** Perform the above tasks and write a detailed report. Video of the automated flight should be included in the report.
