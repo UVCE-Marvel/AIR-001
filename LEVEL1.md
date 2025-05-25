@@ -1,3 +1,4 @@
+
 ## 1. **Introduction to Aerodynamics and Aircraft Structures**
 
 - **Objective:** To understand fundamental aerodynamic principles and forces in aviation.
@@ -5,6 +6,7 @@
   - Study Bernoulli’s Principle, Newton’s Third Law in aviation, and aerodynamic forces
   - Understand lift, drag, thrust, weight, and stability
   - Learn about primary and secondary control surfaces
+  - Do a study about the basic components like pitot tube & radio altimeter.
   - Do a thorough study about the concepts of aviation present in the given resource articles
 - **Outcome:**  Perform the above tasks and write a detailed report.
 
@@ -14,6 +16,9 @@
 3. [Resource article on general theory of flight](https://web.mit.edu/16.00/www/aec/flight.html)
 4. [Lift Equation & it's dependencies](https://www.youtube.com/watch?v=40uhfWbZH6g)
 5. [Introduction to control surfaces](https://www.youtube.com/watch?v=XxrdhJanotw)
+6. [Pitot tube](https://www.youtube.com/shorts/V10DEnJ1W1w)
+7. [Radio altimeter basics](https://youtu.be/i4iokpmaF2A?si=cnZ_pZ7Ox0TtZ5dS)
+8. [Radio altimeter in-depth](https://youtu.be/CGSK8wUJRqQ?si=2YEtWN_7K7lslyQ0)
 
 ![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/360_F_644866903_EDeHlEskFZD41qIOTio8sweGwFDMIwa4.jpg?raw=true)
 
@@ -72,7 +77,7 @@
 13. [How to choose a battery for the drone](https://www.youtube.com/watch?v=b1Lc5_piUX0)
 14. [Flight time calculation](https://www.youtube.com/watch?v=ojlOuCFVbf0)
 
-![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/dronebannernew.jpg?raw=true)
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/AMS%20MOTOE.jpg?raw=true)
 
 --- 
 
@@ -134,8 +139,9 @@
 
 - **Objective:** To understand the principles and protocols of RF communication in UAVs.
 - **Task:**
-  - Learn about radio frequencies used in UAVs (2.4GHz, 5.8GHz, LoRa)
+  - Learn about radio frequencies & protocols used in UAVs (2.4GHz, 5.8GHz, LoRa, MavLink), along with their inter-connectedness.
   - Understand the various security implications of wireless protocols used in drones, emerging threats, and mitigation techniques
+  - Learn about the different protocols used in Tx & Rx like ELRS, Cross fire & 4 in 1. Also, state the importance and advantage of each of these over the others.
   - Learn how to bind an ELRS receiver & bind the 2.4 GHz RP1 Rx with the TX16S transmitter available in the lab
 - **Outcome:** Perform the above tasks and write a detailed report.
 - **Platform:** [ELRS Configurator](https://github.com/ExpressLRS/ExpressLRS-Configurator/releases) for updating the firmware.
@@ -148,6 +154,7 @@
 5. [Technicalities of ELRS](https://www.youtube.com/watch?v=TU6DotRlm2s)
 6. [Updating the Tx/Rx firmware](https://www.youtube.com/watch?v=XJDtHMifkl8)
 7. [Methods to bind an ELRS Rx](https://www.youtube.com/watch?v=jkjlk-ahcto)
+8. [ELRS vs 4 in 1 vs Crossfire](https://www.youtube.com/watch?v=VGKH1U8Rt0A)
 
 ![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/wireless_F-min.jpg?raw=true)
 
@@ -160,15 +167,15 @@
   - Understand PID tuning for UAV stability
   - Learn how GPS Hold and Altitude Hold work, tabulate the differences between the two
   - Tabulate the differences between GPS Hold and Altitude Hold
-  - Make a self-balancing car which balances itself on the principles of PID control
 - **Outcome:** Perform the above tasks and write a detailed report.
 
 *Resources:*
 1. [Intro to PID](https://www.youtube.com/watch?v=dMRDzicSvXk)
 2. [PID controller with the help of a simple analogy](https://chatgpt.com/share/680dfe75-0d78-800a-af8a-337b6a9d852a)
 3. [GPS Hold Vs Altitude Hold](https://www.youtube.com/watch?v=8-3I2Xot3pI)
-4. [Self Balancing Bot](https://www.youtube.com/watch?v=pbJbpHjC3v0)
-5. [.STL Files for the self balancing bot ~To be made by Anwayi]()
+
+
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/dronebannernew.jpg?raw=true)
 
 ---
 
@@ -213,5 +220,3 @@
 2. [BVLOS Regulations in India](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Students-Resources)
 
 ![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/no_drones_in_Mumbai_1703089409108_1703089409404.png?raw=true)
-
----
