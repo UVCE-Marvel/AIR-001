@@ -1,5 +1,3 @@
-# Level 2
-
 
 ## 1. **UAV Assembly & Flight Controller Configuration:**
 
