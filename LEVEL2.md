@@ -1,130 +1,147 @@
 # Level 2
-## Design a Leg for a Quadcopter Frame
-
-### Objective
-Design a leg for a quadcopter frame using the dimensions of the standard T50 frame design for quadcopters. Utilize the generative design tools in Fusion 360 to complete this task with a focus on weight reduction while maintaining the structural stiffness of the leg.
-
-#### Steps
-
-1. **Understand Generative Design Environment:**
-   - Gain a thorough understanding of how to operate the generative design environment in Fusion 360.
-   - Learn about the use of **Obstacle Geometry**, **Preserve Geometry**, and **Starting Shape**.
-
-2. **Design Considerations:**
-   - Weight reduction of the legs is a high priority.
-   - Ensure that the structural stiffness of the legs is not compromised.
-
-3. **Resource:**
-   - Use the following playlist to understand the generative design environment: [Fusion 360 Generative Design Playlist](https://www.youtube.com/watch?v=sps-OR60fVU&list=PLEzzQIuBvBkr7tNcgERS9IIxLSPbb8A6M).
-
-#### Design Process
-
-1. **Dimensions:**
-   - Use the dimensions of the standard T50 frame design for quadcopters.
-
-2. **Generative Design Tools:**
-   - Launch Fusion 360 and navigate to the generative design workspace.
-   - Define **Preserve Geometry** to specify the areas of the design that must remain unchanged.
-   - Set up **Obstacle Geometry** to define the areas that the generated design should avoid.
-   - Determine the **Starting Shape** to guide the initial design process.
-
-3. **Optimization:**
-   - Apply constraints and objectives focused on minimizing weight while ensuring the design meets structural requirements.
-
-4. **Evaluation:**
-   - Analyze the generated design outcomes and select the optimal design for manufacturing.
-
-5. **Iteration:**
-   - Refine the design based on the initial outcomes and repeat the process as needed to achieve the best results.
-
-#### Conclusion
-By completing this task, you will gain practical experience in using generative design tools to create optimized components for quadcopters. This exercise emphasizes the importance of balancing weight reduction and structural integrity in design engineering.
-
-![generative design drone](https://gist.github.com/user-attachments/assets/34751975-3489-4334-acb9-067ce2a7fd13)
----
-
-## ROS 1
-
-### Gain a solid foundation in ROS 1 concepts and practices.
-
-**Tasks:**
-* Set up a ROS 1 environment.
-* Understand core ROS concepts: nodes, topics, messages, services, parameters.
-* Create basic ROS 1 nodes (publishers, subscribers).
-* Explore ROS 1 tools and visualization (rqt, rviz).
-* Work with ROS 1 packages and workspaces.
-* Develop a small ROS 1 project (e.g., simple robot simulation).
-* Rule of the Sky: Implementing Drone Regulations Using ROS
-
-  [Resources](https://www.ros.org/)
-  ![ROS](https://gist.github.com/user-attachments/assets/b6006280-af07-4af8-8b1e-1862ad0d3715)
 
 
-### Apply ROS 1 to a real-world robotics challenge.
+## 1. **UAV Assembly & Flight Controller Configuration:**
 
-**Tasks:**
-* Create a Gazebo simulation environment.
-* Model drones and their dynamics in ROS 1.
-* Implement drone collision avoidance logic using ROS 1.
-* Simulate drone regulations and enforcement.
+- **Objective:** To collaboratively assemble and configure a fully functional quadcopter with GPS, receiver, and flight controller integration.
+- **Task:**
+  - Use the components finalized in Level 1, Task 3 and get the list approved by the coordinators.
+  - Assemble a complete quadcopter as a group, all the batch students should actively take part in the drone building.
+  - Bind the drone to the Radiomaster RP1 receiver and control it using the TX16S transmitter.
+  - Interface the Mission Planner software with the flight controller using a USB connection.
+  - Connect a GPS module to the flight controller and configure it.
+  - Calibrate all sensors (accelerometer, compass) and radio inputs.
+    *(OPTIONAL)*
+    - Integrate a Lidar or Ultrasonic Sensor with the flight controller.
+    - Write and test a basic obstacle detection script that alters the drone's flight path based on sensor input.
+- **Outcome:** Build, calibrate the drone & prepare a detailed project report in word doc. The report should include the names of all team members, the specific work assigned to each member, and a comprehensive explanation of all technical aspects of the drone from start to finish. Post the report on GitHub (.PDF),  ensure the GitHub repository link is posted on the MARVEL website under the corresponding task.
 
-  [Resources](https://gazebosim.org/home)
+*Resources:*
+1. [ArduPilot tuning Guide P1](https://www.youtube.com/watch?v=m458L_0-0EY&t=956s)
+2. [ArduPilot tuning Guide P2](https://www.youtube.com/watch?t=1644&v=R3WqLWLy4Cw)
 
-### Integrate sensors and hardware with ROS 1.
-
-**Tasks:**
-* Set up sensors (camera, LIDAR, IR) on a companion board.
-* Publish sensor data as ROS 1 topics.
-* Develop ROS 1 nodes to process sensor data.
-
- [Resources](https://github.com/Intelligent-Quads/iq_tutorials)
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/DRONEAMS.jpg?raw=true)
 
 ---
 
-## ROS 2 Fundamentals
+## 2. **Autonomous Flight Planning & Execution:**
 
-### Learn the new features and improvements in ROS 2.
+- **Objective:** To understand and practice autonomous flight mission planning using Mission Planner and the ArduPilot simulator.
+- **Task:**
+  - Learn about the Heads Up Display (HUD) available in the Mission Planner.
+  - Using the built-in Ardupilot simulator (SITL), plan and execute a geofence around UVCE and test a small autonomous mission.
+    *(OPTIONAL)*
+    Learn about automated aerial surveying, different modes of surveys available in Mission Planner, and perform a automated aerial survey of UVCE.
+    Execute the flight and analyze logs for accuracy.
+- **Outcome:** Perform the above tasks and write a detailed report. Video of the automated flight should be included in the report.
 
-**Tasks:**
-* Set up a ROS 2 environment.
-* Understand ROS 2 architecture (DDS-based communication).
-* Create basic ROS 2 nodes (publishers, subscribers).
-* Explore ROS 2 tools and visualization (rclcpp, rclpy).
-* Compare and contrast ROS 1 and ROS 2.
+*Resources:*
+1. [SITL Setup](https://www.youtube.com/watch?v=gnSbaGDzrHE)
+2. [Geofencing & Surveying](https://www.youtube.com/watch?v=rui2Trps2yc&list=PL41SZdWB8u1AxPLbf2VC0tkDq0HnbVPKz&index=2)
 
-**Resources:**
-* [ROS 2 Playlist](https://www.youtube.com/playlist?list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy)
-* [ROS 2 Documentation](https://docs.ros.org/en/humble/index.html)
-
----
-
-## ROS-taurant Renovation: Learning How to Use ROS 2 with ROS 1
-
-### Integrate ROS 1 and ROS 2 systems.
-
-**Tasks:**
-* Understand the need for interoperability.
-* Learn about the ros1_bridge package.
-* Create a bridge between ROS 1 and ROS 2 topics.
-* Build a hybrid system using both ROS 1 and ROS 2 components.
-
-**Resources:**
-* [YouTube Video on ros1_bridge](https://www.youtube.com/watch?v=sJLvv1xtjSM)
-* [ros1_bridge Guide](https://docs.ros.org/en/humble/How-To-Guides/Using-ros1_bridge-Jammy-upstream.html)
-* [GitHub - ros2/ros1_bridge](https://github.com/ros2/ros1_bridge#example-1-run-the-bridge-and-the-example-talker-and-listener)
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/11111111111.png?raw=true)
 
 ---
 
-## Advanced Topics and ROS 2 Deep Dive
+## 3. **Introduction to MATLAB:**
 
-### ROS-a-saurus Rex: Taming the Legacy Beast (ROS 1) with a New Language (ROS 2) (continued)
+- **Objective:** To gain foundational knowledge of MATLAB and Simulink.
+- **Task:**
+  - Complete the MATLAB Onramp course.
+  - Complete the Simulink Onramp course.
+  - Download and upload both certificates as proof of completion.
+- **Outcome:** Perform the above tasks and write a detailed report which should include the certificates of completion.
 
-**Migrate an existing ROS 1 node into a ROS 2 node (not completely migrating from ROS 1 to ROS 2).**
+*Resources:*
+1. [Course Link](https://matlabacademy.mathworks.com/?page=1&sort=featured&s_tid=user_nav_learning)
 
-**Steps:**
-1. **Node Selection**: Select a simple ROS 1 node from your project (e.g., sensor driver, processing node).
-2. **Port Functionality**: Port the functionality of the chosen node to ROS 2 using appropriate ROS 2 libraries and message types.
-3. **Integration**: Integrate the migrated ROS 2 node with the ROS 1 project using the bridge (if necessary).
+---
 
-**Resources:**
-* [Practical Guide for Migrating from ROS1 to ROS2](https://admantium.medium.com/robot-operating-system-practical-guide-for-migrating-from-ros1-to-ros2-2fe93aca9363)
+## 4. **Advanced PID Tuning:**
+
+- **Objective:** To develop a strong understanding of PID controllers and their application in UAV stability and autonomous control systems.
+- **Task:**
+  - Watch at least the first 5 videos from the provided PID resource playlist, write a detailed report about the learnings.
+  - Connect a UAV to Mission Planner and observe the default PID values for roll, pitch, and yaw.
+  - Build a self-balancing car that operates using PID control principles.
+  - Experiment by adjusting PID parameters (P, I, and D) one at a time and observe the effect on system stability.
+- **Outcome:** Perform the above tasks and write a detailed report.
+
+*Resources:*
+1. [Recall PID with the help of Chat GPT analogy](https://chatgpt.com/share/680dfe75-0d78-800a-af8a-337b6a9d852a)
+2. [PID in depth ~Watch at least first 5 videos](https://www.youtube.com/watch?v=wkfEZmsQqiA&list=PLn8PRpmsu08pQBgjxYFXSsODEF3Jqmm-y&index=2)
+3. [Initial PID setup & tuning in mission planner](https://www.youtube.com/watch?v=R3WqLWLy4Cw&t=2411s)
+4. [Self Balancing Car](https://www.youtube.com/watch?v=pbJbpHjC3v0)
+
+---
+
+## 5. **Rules in the Rule Book Written by Blood:**
+
+- **Objective:** To explore the methodology behind air crash investigations and learn how aviation safety evolves from past incidents.
+- **Task:**
+  - Take an example of a previous Air Crash  from [Wyngx](https://www.youtube.com/@_WyngX/videos) or any other source of your choice. 
+  - Write a detailed report of the air crash investigation, the report should include:
+    - Details of the flight, place, time, pilot details and an introductory paragraph about the accident which occurred /was about to occur including the losses occurred.
+    - Explain in brief about the aircraft.
+    - Using the Swiss Cheese Model analyze the key contributing factors (technical, human, environmental etc.) and also explain how each of these factors (layers of the Swiss Cheese) accelerated the accident when aligned together.
+    - State the various theories and assumptions which took place during the investigation and also mention the reasons which led to the elimination/confirmation of these theories.
+    - Reflect on what lessons were learned and how aviation standards changed post-accident.
+- **Outcome:** Perform the above tasks and write a detailed report in Word Doc, post it on GitHub (.PDF),  ensure the GitHub repository link is posted on the MARVEL website under the corresponding task.
+
+*Resources:*
+1. [Wyngx](https://www.youtube.com/@_WyngX/videos) or any other source of your choice.
+
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/rules%20in%20the%20rulebook%20written%20by%20blood.png?raw=true)
+
+---
+
+## 6. **Flight Data Logging & Analysis:**
+
+- **Objective:** To explore the methodology behind air crash investigations and learn how aviation safety evolves from past incidents.
+- **Task:**
+  - Extract log files from a Pixhawk/APM flight controller.
+  - Analyze flight stability, GPS accuracy, battery performance using Mission Planner.
+  - Generate graphs for:
+    - Altitude vs time.
+    - Throttle & Battery vs time consumption.
+    - Velocity vs time
+    - Suggest improvements based on data trends.
+  - Also convert the `.bin` log files to `kml+gpx` formats and upload the obtained `kmz` files to Google Earth to view the 3D path followed by the drone. Try to simulate the same flight path on Google Earth using the kmz files, state the problems faced if any.
+- **Outcome:** Analyze all the 3 LOG files given and write a detailed report.
+
+*Resources:*
+1. [Retrieval of LOG files](https://www.youtube.com/watch?v=xhBd9KSAfzg)
+2. [Link to LOG files](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Students-Resources/tree/main/LOG%20Files)
+
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/black-box-update.jpg?raw=true)
+
+---
+
+## 7. **Introduction to ROS 2 for UAVs:**
+
+- **Objective:** To get started with the Robot Operating System (ROS) 2 ecosystem and understand its application in UAV communication through node-based architecture.
+- **Task:**
+  - Install and set up Ubuntu 22.04 and ROS 2 Humble Hawksbill.
+  - Learn the basics of:
+    - Nodes
+    - Topics
+    - Publishers
+    - Subscribers
+  - Create a Publisher Node that sends fake drone altitude data
+  - Create a Subscriber Node that reads and displays this altitude data in real-time
+    *(OPTIONAL)*
+    - Modify the Publisher node to also publish Battery Level data along with the altitude.
+- **Outcome:** Perform the above tasks and document steps clearly with screenshots and code snippets.
+
+*Resources:*
+1. [Ubuntu 22.04 Setup](https://www.youtube.com/watch?v=hYaCCpvjsEY)
+2. [Basics of ROS 2 Terms](https://www.youtube.com/shorts/hTHZC-x91ic)
+3. [Multiple terminals using terminator](https://www.youtube.com/watch?v=cRS8q6vDI8Y&t=12s)
+4. [ROS 2 Setup & Task Tutorial](https://www.youtube.com/watch?v=0aPbWsyENA8&list=PLLSegLrePWgJudpPUof4-nVFHGkB62Izy&index=2)
+
+![](https://github.com/Asshrayyyy/MARVEL-Aviation-/blob/main/ROS%202.png?raw=true)
+
+--- 
+### All The Best!!
+
+---
