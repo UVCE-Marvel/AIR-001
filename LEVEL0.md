@@ -166,7 +166,7 @@ Create a Tinkercad account and familiarize yourself with the application. Simula
 Explore techniques for controlling DC motors using the L298N motor driver and Arduino board. Control the speed of a 5V DC motor with an Arduino UNO and H-Bridge L298N motor driver. Simulate this on Tinkercad and then perform it on hardware. Record videos of the process.
 
 **Reference:**
-- [Arduino DC Motor Control Tutorial](https://howtomechatronics.com/tutorials/arduino/arduino-dc-motor-control-tutorial-l298n-pwm-h-bridge/)
+- [Arduino DC Motor Control Tutorial](https://lastminuteengineers.com/l298n-dc-stepper-driver-arduino-tutorial/)
 
 ---
 
@@ -193,6 +193,8 @@ Learn about soldering equipment such as solder, soldering iron, soldering wick, 
 Design a 555 astable multivibrator with a duty cycle of 60%. Assemble the circuit on a breadboard and observe the output on a Digital Storage Oscilloscope (DSO).
 
 **Resource:**
+- [Introduction to 555 IC](https://www.youtube.com/watch?v=Y1yVEf2kwU4)
+- [What is Astable Multivibrator](https://www.youtube.com/watch?v=uXfykqj65oo)
 - [555 Oscillator Circuit](https://www.electronics-tutorials.ws/waveforms/555_oscillator.html)
 
 ---
@@ -275,6 +277,7 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 ![](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Syllabus-Repo/blob/main/airblock%20drone%201.jpg?raw=true)
 
 ---
+
 
 
 
