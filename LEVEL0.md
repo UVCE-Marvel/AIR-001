@@ -197,22 +197,13 @@ Design a 555 astable multivibrator with a duty cycle of 60%. Assemble the circui
 
 ---
 
-### Task 14: Karnaugh Maps and Deriving the Logic Circuit
-
-For 4 cases involving door lock/open and key pressed/not pressed, determine the Karnaugh map and create a burglar alarm using simple logic circuits. Use push buttons for the door and key, and design the circuit based on the K-map.
-
----
-
-### Task 15: Active Participation
+### Task 14: Active Participation
 
 Participate in any technical event, inter-college or intra-college, and submit the issued certificate of participation. Enroll in and complete a MOOC course.
 
 ---
 
-### Task 16: Datasheets Report Writing
-
-Study the datasheet of either the MQ135 gas sensor or the L293D motor driver and write a report. For the L293D, include details about the ICs used, PWM, and H-bridge. For the MQ135, include calibrations for different gases and the Freundlich Absorption Theorem Graph.
-## Task 17: Introduction to VR
+## Task 15: Introduction to VR
 
 Familiarise yourself with what Virtual Reality is. Make a detailed study about what's the difference between VR and AR. Mention about the trends in the space and technology stack being developed. Make about Indian companies in this space. Make the report with detail. Using generative AI to generate this study can lead to disqualification.
 
@@ -284,6 +275,7 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 ![](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Syllabus-Repo/blob/main/airblock%20drone%201.jpg?raw=true)
 
 ---
+
 
 
 
