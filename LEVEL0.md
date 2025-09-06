@@ -19,6 +19,8 @@ Resources:
 (Note this task is to be done under coordinator supervision.)
 ![3dprinter](https://gist.github.com/user-attachments/assets/6339d1a8-82d4-4631-8fd6-af7d77de983f)
 
+--- 
+
 ### Task 2: API
 
 Learn what an API is and how it works through [this video](https://www.youtube.com/watch?v=s7wmiS2mSXY). Using any API of your choice, build a user interface (web app, mobile app, etc.) to make calls and display information. An example weather app using the Open Weather API is provided below.
@@ -87,6 +89,8 @@ Dive into the core of machine learning by implementing **Linear Regression from 
 - Always normalize or standardize features before training your scratch model, especially if you’re using gradient descent.
 - Be cautious with your **learning rate** , too small and the model is slow, too large and it may diverge.
 - Initialize weights and bias properly ( small random values or zeros).
+
+---
 
 ## Task 6 : The Matrix Puzzle — Decode with NumPy & Reveal the Image
 
@@ -214,17 +218,6 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 
 ![vrlol](https://gist.github.com/user-attachments/assets/f9c1c57b-5861-4ffb-9c2b-31f01f184531)
 
-
-## TASK 18: Sad servers - "Like LeetCode for Linux"
-Sadservers is an excellent ground to test your Linux troubleshooting skills.  Here is a troubleshooting scenario: Command Line Murders. Troubleshoot and Make Sad Servers Happy!  
-[Command line murder](https://sadservers.com/scenario/command-line-murders )  
-[Linux commands]( https://www.hostinger.com/tutorials/linux-commands )    
-[Linux commands]( https://github.com/vvvvvvss/learnLinux )   
-
-## Task 19: Make a Web app
-Using express create a resource library website where you can browse the resource articles, books etc which are available and also manage your account  
-[Reference](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs)
-
 ---
 
 ## Aviation Domain-Specific Tasks
@@ -291,5 +284,6 @@ Using express create a resource library website where you can browse the resourc
 ![](https://github.com/Asshray-Sudhakar/MARVEL-Aviation-Syllabus-Repo/blob/main/airblock%20drone%201.jpg?raw=true)
 
 ---
+
 
 
