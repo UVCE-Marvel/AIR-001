@@ -49,7 +49,7 @@
 
 --- 
 
-## 3. **Basic UAV Assembly & Components Familiarization**
+## 3. **Basic UAV Assembly & Components Familiarization**
 
 - **Objective:** To understand and identify essential UAV components and their compatibility.
 - **Task:** 
@@ -81,7 +81,7 @@
 
 --- 
 
-## 4. **Propeller Blade Design & Simulation**
+## 4. **Propeller Blade Design & Simulation**
 
 - **Objective:** To understand propeller fundamentals and simulate its aerodynamic performance.
 - **Task:**
@@ -121,7 +121,7 @@
 
 ---
 
-## 5. **Understand about ESC**
+## 5. **Understand about ESC**
 
 - **Objective:** To control the speed of a BLDC motor using Arduino UNO, ESC, and a potentiometer.
 - **Task:**

@@ -216,7 +216,7 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 ## Aviation Domain-Specific Tasks
 ---
 
-## 1. **History of Aviation**
+## 1. **History of Aviation**
 
 - **Objective:** To learn about the history of Aviation & Drones.
 - **Task:**
@@ -237,7 +237,7 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 
 ---
 
-## 2. **Introduction to Flight Simulators**
+## 2. **Introduction to Flight Simulators**
 
 - **Objective:** To learn manual controls, stability handling, and motor mixing using a drone simulator.
 - **Task:**
@@ -260,7 +260,7 @@ Familiarise yourself with what Virtual Reality is. Make a detailed study about w
 
 --- 
 
-## 3. **Flying the Airblock Drone**
+## 3. **Flying the Airblock Drone**
 
 - **Objective:** To learn about and operate the Airblock Drone available in the lab.
 - **Task:**
